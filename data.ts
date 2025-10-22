@@ -2,7 +2,10 @@ import { User, Chapters, Mcqs } from "./types";
 
 // 🔒 Add more usernames and passwords below:
 // The password field is used for demonstration. In a real app, this would be handled securely.
-export const users: User[] = [{ username: "Ali", password: "201711" }];
+export const users: User[] = [
+  { username: "Ali", password: "201711" },
+  { username: "Tayyab", password: "2004" },
+];
 
 // 📘 Add or edit subjects here:
 export const subjects: string[] = [
