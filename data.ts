@@ -132,43 +132,1551 @@ export const mcqs: Mcqs = {
     ],
   },
   Chemistry: {
+    Equilibrium: [
+      {
+        question: "What is the defining condition of a chemical equilibrium?",
+        options: [
+          "The concentrations of reactants and products are equal.",
+          "The forward and reverse reaction rates are equal.",
+          "All molecular motion has ceased.",
+          "The limiting reactants are fully consumed.",
+        ],
+        correctAnswer: "The forward and reverse reaction rates are equal.",
+      },
+      {
+        question: "A system at dynamic equilibrium is characterized by:",
+        options: [
+          "Constant macroscopic properties.",
+          "A genuinely static state at the molecular level.",
+          "A reaction that has gone to completion.",
+          "Zero reaction rate in both directions.",
+        ],
+        correctAnswer: "Constant macroscopic properties.",
+      },
+      {
+        question:
+          "Which of the following is a necessary requirement for establishing chemical equilibrium?",
+        options: [
+          "The presence of a catalyst.",
+          "The system must be open to the atmosphere.",
+          "The system must be closed.",
+          "The reaction must be irreversible.",
+        ],
+        correctAnswer: "The system must be closed.",
+      },
+      {
+        question:
+          "The equilibrium constant, K_c, is dependent only on which factor?",
+        options: [
+          "Initial concentrations",
+          "Pressure",
+          "Presence of a catalyst",
+          "Temperature",
+        ],
+        correctAnswer: "Temperature",
+      },
+      {
+        question:
+          "If the value of the equilibrium constant K_c is much larger than 1 (K_c >> 1), what does this imply?",
+        options: [
+          "The equilibrium lies far to the left, favoring reactants.",
+          "The reaction is very slow.",
+          "The equilibrium lies far to the right, favoring products.",
+          "The concentrations of reactants and products are nearly equal.",
+        ],
+        correctAnswer:
+          "The equilibrium lies far to the right, favoring products.",
+      },
+      {
+        question:
+          "For a gaseous reaction, when is the value of K_p equal to K_c?",
+        options: [
+          "When the reaction is endothermic.",
+          "When the reaction is exothermic.",
+          "When the change in the number of moles of gas (Δn) is zero.",
+          "When the temperature is 298 K.",
+        ],
+        correctAnswer:
+          "When the change in the number of moles of gas (Δn) is zero.",
+      },
+      {
+        question: "How does a catalyst affect a system at equilibrium?",
+        options: [
+          "It increases the value of K_c.",
+          "It shifts the equilibrium to favor products.",
+          "It increases the rates of both forward and reverse reactions equally.",
+          "It decreases the activation energy of the forward reaction only.",
+        ],
+        correctAnswer:
+          "It increases the rates of both forward and reverse reactions equally.",
+      },
+      {
+        question:
+          "Consider the exothermic reaction: N₂(g) + 3H₂(g) ⇌ 2NH₃(g). How will the equilibrium shift if the temperature is increased?",
+        options: [
+          "Shift to the right (favoring products)",
+          "Shift to the left (favoring reactants)",
+          "No change in equilibrium position",
+          "The value of K_c will increase",
+        ],
+        correctAnswer: "Shift to the left (favoring reactants)",
+      },
+      {
+        question:
+          "For the reaction PCl₅(g) ⇌ PCl₃(g) + Cl₂(g), how will an increase in pressure affect the equilibrium?",
+        options: [
+          "Shift to the right",
+          "Shift to the left",
+          "No change",
+          "It will increase the rate constant",
+        ],
+        correctAnswer: "Shift to the left",
+      },
+      {
+        question:
+          "If the reaction quotient Q_c is less than K_c, the reaction must:",
+        options: [
+          "Proceed to the left to reach equilibrium.",
+          "Proceed to the right to reach equilibrium.",
+          "Already be at equilibrium.",
+          "Stop completely.",
+        ],
+        correctAnswer: "Proceed to the right to reach equilibrium.",
+      },
+      {
+        question:
+          "Which of the following stresses will change the value of the equilibrium constant, K_c?",
+        options: [
+          "Changing the concentration of a reactant.",
+          "Changing the pressure of the system.",
+          "Adding a catalyst.",
+          "Changing the temperature.",
+        ],
+        correctAnswer: "Changing the temperature.",
+      },
+      {
+        question: "What is the Common Ion Effect?",
+        options: [
+          "The increase in solubility of a salt when a common ion is added.",
+          "The decrease in the ionization of a weak electrolyte when a common ion is added.",
+          "A solution that resists pH change.",
+          "The product of ion concentrations in a saturated solution.",
+        ],
+        correctAnswer:
+          "The decrease in the ionization of a weak electrolyte when a common ion is added.",
+      },
+      {
+        question: "A buffer solution is typically composed of:",
+        options: [
+          "A strong acid and a strong base.",
+          "A weak acid and its conjugate base.",
+          "A salt dissolved in water.",
+          "Two different strong acids.",
+        ],
+        correctAnswer: "A weak acid and its conjugate base.",
+      },
+      {
+        question:
+          "According to the Henderson-Hasselbalch equation, the pH of an acidic buffer is equal to the pK_a when:",
+        options: [
+          "The concentration of the weak acid is zero.",
+          "The concentration of the conjugate base is zero.",
+          "The concentrations of the weak acid and its conjugate base are equal.",
+          "The solution is completely neutralized.",
+        ],
+        correctAnswer:
+          "The concentrations of the weak acid and its conjugate base are equal.",
+      },
+      {
+        question:
+          "The solubility product constant, K_sp, represents the equilibrium between:",
+        options: [
+          "A weak acid and its ions.",
+          "A gas and its dissolved form.",
+          "An undissolved solid and its dissociated ions in solution.",
+          "Reactants and products in a reversible reaction.",
+        ],
+        correctAnswer:
+          "An undissolved solid and its dissociated ions in solution.",
+      },
+      {
+        question:
+          "For the reaction 2A(g) ⇌ B(g) + C(g), what is the correct expression for the equilibrium constant K_c?",
+        options: [
+          "[B][C] / [A]",
+          "[B][C] / [A]²",
+          "[A]² / [B][C]",
+          "[A] / [B][C]",
+        ],
+        correctAnswer: "[B][C] / [A]²",
+      },
+      {
+        question:
+          "If you add more of reactant A to an equilibrium mixture, the reaction will shift to the right to consume the added A. This is an application of:",
+        options: [
+          "The Law of Mass Action",
+          "The Arrhenius Equation",
+          "Le Chatelier's Principle",
+          "The Henderson-Hasselbalch Equation",
+        ],
+        correctAnswer: "Le Chatelier's Principle",
+      },
+      {
+        question:
+          "A buffer works by consuming added strong acid with its ____ component and added strong base with its ____ component.",
+        options: [
+          "acidic, basic",
+          "basic, acidic",
+          "acidic, acidic",
+          "basic, basic",
+        ],
+        correctAnswer: "basic, acidic",
+      },
+      {
+        question:
+          "In an 'ICE' table used for equilibrium problems, what does 'C' stand for?",
+        options: ["Concentration", "Constant", "Catalyst", "Change"],
+        correctAnswer: "Change",
+      },
+      {
+        question:
+          "What is the pH of a solution where the concentration of H+ is 1.0 x 10⁻⁴ M?",
+        options: ["10", "4", "-4", "1"],
+        correctAnswer: "4",
+      },
+      {
+        question:
+          "If the forward reaction is endothermic, how will decreasing the temperature affect the equilibrium?",
+        options: ["Shift right", "Shift left", "No effect", "Increase K_c"],
+        correctAnswer: "Shift left",
+      },
+      {
+        question: "What is the conjugate base of the weak acid H₂CO₃?",
+        options: ["CO₃²⁻", "HCO₃⁻", "H₃CO₃⁺", "OH⁻"],
+        correctAnswer: "HCO₃⁻",
+      },
+      {
+        question:
+          "If K_c for the reaction A + B ⇌ C is 4.0, what is K_c for the reaction C ⇌ A + B?",
+        options: ["4.0", "2.0", "0.25", "-4.0"],
+        correctAnswer: "0.25",
+      },
+      {
+        question:
+          "Adding an inert gas (like Argon) to a gaseous equilibrium at constant volume will:",
+        options: [
+          "Shift the equilibrium to the right",
+          "Shift the equilibrium to the left",
+          "Increase the total pressure but not shift the equilibrium",
+          "Decrease the total pressure and shift the equilibrium",
+        ],
+        correctAnswer:
+          "Increase the total pressure but not shift the equilibrium",
+      },
+      {
+        question: "In the expression K_p = K_c(RT)Δⁿ, what does 'R' represent?",
+        options: [
+          "The reaction rate",
+          "The universal gas constant",
+          "The reactant concentration",
+          "The reaction quotient",
+        ],
+        correctAnswer: "The universal gas constant",
+      },
+      {
+        question:
+          "If a strong base like NaOH is added to an acetic acid buffer (CH₃COOH/CH₃COO⁻), which component will react with it?",
+        options: [
+          "The acetate ion (CH₃COO⁻)",
+          "The acetic acid (CH₃COOH)",
+          "The sodium ion (Na⁺)",
+          "Water (H₂O)",
+        ],
+        correctAnswer: "The acetic acid (CH₃COOH)",
+      },
+      {
+        question:
+          "The value of K_sp for AgCl is 1.8 x 10⁻¹⁰. This small value indicates that AgCl is:",
+        options: [
+          "Highly soluble in water",
+          "Slightly soluble in water",
+          "A strong electrolyte",
+          "A gas at room temperature",
+        ],
+        correctAnswer: "Slightly soluble in water",
+      },
+      {
+        question:
+          "The state where a reaction appears to have stopped macroscopically but is still occurring at the molecular level is called:",
+        options: [
+          "Static equilibrium",
+          "The transition state",
+          "Dynamic equilibrium",
+          "The rate-determining step",
+        ],
+        correctAnswer: "Dynamic equilibrium",
+      },
+      {
+        question:
+          "Which of the following describes the 'active mass' of a substance as defined by the Law of Mass Action?",
+        options: [
+          "Total mass in grams",
+          "Molar concentration",
+          "Density",
+          "Partial pressure",
+        ],
+        correctAnswer: "Molar concentration",
+      },
+      {
+        question:
+          "In the reaction H₂(g) + I₂(g) ⇌ 2HI(g), how does the equilibrium shift when the volume is decreased (pressure is increased)?",
+        options: ["Shifts left", "Shifts right", "No shift", "Reaction stops"],
+        correctAnswer: "No shift",
+      },
+      {
+        question: "What is the conjugate acid of the weak base ammonia (NH₃)?",
+        options: ["NH₂⁻", "NH₄⁺", "H₃O⁺", "N₂H₄"],
+        correctAnswer: "NH₄⁺",
+      },
+      {
+        question:
+          "If a reaction has a negative ΔH, increasing the temperature will cause the equilibrium constant K_c to:",
+        options: ["Increase", "Decrease", "Remain constant", "Become negative"],
+        correctAnswer: "Decrease",
+      },
+      {
+        question:
+          "If K_c is approximately equal to 1, the equilibrium mixture consists of:",
+        options: [
+          "Mostly products",
+          "Mostly reactants",
+          "Comparable amounts of reactants and products",
+          "Only reactants",
+        ],
+        correctAnswer: "Comparable amounts of reactants and products",
+      },
+      {
+        question:
+          "If you remove a product from an equilibrium system, the reaction will:",
+        options: [
+          "Shift left to produce more reactants",
+          "Shift right to produce more product",
+          "Stop",
+          "Be unaffected",
+        ],
+        correctAnswer: "Shift right to produce more product",
+      },
+      {
+        question:
+          "A solution that resists drastic changes in pH is known as a:",
+        options: [
+          "Neutral solution",
+          "Saturated solution",
+          "Buffer solution",
+          "Standard solution",
+        ],
+        correctAnswer: "Buffer solution",
+      },
+      {
+        question:
+          "The expression for the reaction quotient, Q_c, is identical to K_c, but it is calculated using concentrations that are:",
+        options: [
+          "Only at equilibrium",
+          "Not necessarily at equilibrium",
+          "Only for the initial conditions",
+          "Only for gases",
+        ],
+        correctAnswer: "Not necessarily at equilibrium",
+      },
+      {
+        question:
+          "Adding a soluble salt containing a common ion to a solution of a slightly soluble salt will:",
+        options: [
+          "Increase its solubility",
+          "Decrease its solubility",
+          "Have no effect on its solubility",
+          "Change its color",
+        ],
+        correctAnswer: "Decrease its solubility",
+      },
+      {
+        question:
+          "For N₂(g) + 3H₂(g) ⇌ 2NH₃(g), at equilibrium in a 2.0 L container, you have 0.50 mol of N₂, 1.50 mol of H₂, and 0.20 mol of NH₃. What is K_c?",
+        options: ["0.095", "10.5", "0.237", "1.50"],
+        correctAnswer: "0.095",
+      },
+      {
+        question:
+          "A reaction starts with 0.50 M of A. For the reaction A ⇌ 2B, the equilibrium concentration of B is 0.40 M. What is the equilibrium concentration of A?",
+        options: ["0.10 M", "0.20 M", "0.30 M", "0.50 M"],
+        correctAnswer: "0.30 M",
+      },
+      {
+        question:
+          "For the reaction 2SO₂(g) + O₂(g) ⇌ 2SO₃(g) at 500 K, what is the relationship between Kp and Kc?",
+        options: ["Kp = Kc", "Kp = Kc(RT)", "Kp = Kc(RT)⁻¹", "Kp = Kc(RT)²"],
+        correctAnswer: "Kp = Kc(RT)⁻¹",
+      },
+    ],
+    "Reaction Kinetics": [
+      {
+        question: "The rate of a chemical reaction is defined as:",
+        options: [
+          "The total time the reaction takes to complete.",
+          "The change in concentration of a species per unit of time.",
+          "The energy released during the reaction.",
+          "The point at which equilibrium is reached.",
+        ],
+        correctAnswer:
+          "The change in concentration of a species per unit of time.",
+      },
+      {
+        question:
+          "In the rate law, Rate = k[A]ˣ[B]ʸ, the exponents x and y are known as:",
+        options: [
+          "Stoichiometric coefficients",
+          "Rate constants",
+          "Orders of reaction",
+          "Activation energies",
+        ],
+        correctAnswer: "Orders of reaction",
+      },
+      {
+        question:
+          "How are the orders of reaction (x and y in the rate law) determined?",
+        options: [
+          "From the stoichiometric coefficients of the balanced equation.",
+          "By measuring the temperature change.",
+          "Experimentally.",
+          "By calculating the equilibrium constant.",
+        ],
+        correctAnswer: "Experimentally.",
+      },
+      {
+        question:
+          "What are the units of the rate constant 'k' for a second-order reaction?",
+        options: ["s⁻¹", "mol⋅dm⁻³⋅s⁻¹", "dm³⋅mol⁻¹⋅s⁻¹", "dm⁶⋅mol⁻²⋅s⁻¹"],
+        correctAnswer: "dm³⋅mol⁻¹⋅s⁻¹",
+      },
+      {
+        question:
+          "If doubling the concentration of reactant [A] quadruples the reaction rate, the reaction is what order with respect to A?",
+        options: ["Zero order", "First order", "Second order", "Third order"],
+        correctAnswer: "Second order",
+      },
+      {
+        question: "The half-life of a first-order reaction is:",
+        options: [
+          "Directly proportional to the initial concentration.",
+          "Inversely proportional to the initial concentration.",
+          "Independent of the initial concentration.",
+          "Equal to the rate constant.",
+        ],
+        correctAnswer: "Independent of the initial concentration.",
+      },
+      {
+        question:
+          "For a certain reaction, the half-life is observed to decrease as the initial concentration is increased. What is the order of the reaction?",
+        options: [
+          "Zero order",
+          "First order",
+          "Second order",
+          "Cannot be determined",
+        ],
+        correctAnswer: "Second order",
+      },
+      {
+        question:
+          "If a reaction is 50% complete in 100 seconds and 75% complete in 200 seconds, what is the order of the reaction?",
+        options: ["Zero order", "First order", "Second order", "Third order"],
+        correctAnswer: "First order",
+      },
+      {
+        question: "Which plot gives a straight line for a zero-order reaction?",
+        options: ["[A] vs. t", "ln[A] vs. t", "1/[A] vs. t", "log(k) vs. 1/T"],
+        correctAnswer: "[A] vs. t",
+      },
+      {
+        question:
+          "According to collision theory, what two conditions must be met for a collision to be effective?",
+        options: [
+          "Sufficient energy and high pressure.",
+          "Sufficient energy and correct orientation.",
+          "High concentration and high temperature.",
+          "Correct orientation and the presence of a catalyst.",
+        ],
+        correctAnswer: "Sufficient energy and correct orientation.",
+      },
+      {
+        question: "What is the activation energy (E_a) of a reaction?",
+        options: [
+          "The total energy released by the reaction.",
+          "The minimum energy required for reactants to turn into products.",
+          "The energy difference between products and reactants.",
+          "The average kinetic energy of the molecules.",
+        ],
+        correctAnswer:
+          "The minimum energy required for reactants to turn into products.",
+      },
+      {
+        question:
+          "How does an increase in temperature always affect the reaction rate and rate constant (k)?",
+        options: [
+          "It decreases the rate and k.",
+          "It increases the rate and k.",
+          "It increases the rate but decreases k.",
+          "It has no effect on the rate or k.",
+        ],
+        correctAnswer: "It increases the rate and k.",
+      },
+      {
+        question: "The Arrhenius equation describes the relationship between:",
+        options: [
+          "Rate constant, temperature, and activation energy.",
+          "Equilibrium constant and pressure.",
+          "Concentration and time.",
+          "Half-life and reaction order.",
+        ],
+        correctAnswer: "Rate constant, temperature, and activation energy.",
+      },
+      {
+        question:
+          "On a potential energy diagram, the peak of the energy barrier represents the:",
+        options: [
+          "Reactants",
+          "Products",
+          "Enthalpy change (ΔH)",
+          "Activated complex (transition state)",
+        ],
+        correctAnswer: "Activated complex (transition state)",
+      },
+      {
+        question: "For an endothermic reaction, which statement is true?",
+        options: [
+          "The products have lower potential energy than the reactants.",
+          "The activation energy of the forward reaction is less than the reverse reaction.",
+          "The enthalpy change (ΔH) is positive.",
+          "The reaction releases heat to the surroundings.",
+        ],
+        correctAnswer: "The enthalpy change (ΔH) is positive.",
+      },
+      {
+        question:
+          "The 'instantaneous rate' of a reaction at a specific time is determined by:",
+        options: [
+          "The overall change in concentration divided by total time.",
+          "The rate at the very beginning of the reaction.",
+          "The slope of the tangent to the concentration-time curve at that time.",
+          "Averaging the rates at the beginning and end.",
+        ],
+        correctAnswer:
+          "The slope of the tangent to the concentration-time curve at that time.",
+      },
+      {
+        question:
+          "The discrepancy between stoichiometric coefficients and experimentally determined reaction orders is evidence that:",
+        options: [
+          "The reaction is at equilibrium.",
+          "The reaction occurs through a multi-step mechanism.",
+          "The temperature is too low.",
+          "The law of mass action is incorrect.",
+        ],
+        correctAnswer: "The reaction occurs through a multi-step mechanism.",
+      },
+      {
+        question:
+          "The overall order of the reaction with the rate law: Rate = k[X][Y]² is:",
+        options: ["1", "2", "3", "4"],
+        correctAnswer: "3",
+      },
+      {
+        question:
+          "A reaction with a very high activation energy will likely be:",
+        options: [
+          "Very fast at room temperature.",
+          "Very slow at room temperature.",
+          "Spontaneous regardless of temperature.",
+          "Strongly exothermic.",
+        ],
+        correctAnswer: "Very slow at room temperature.",
+      },
+      {
+        question:
+          "What is the relationship between the enthalpy change (ΔH) and the activation energies of the forward (Ea,fwd) and reverse (Ea,rev) reactions?",
+        options: [
+          "ΔH = Ea,fwd + Ea,rev",
+          "ΔH = Ea,fwd / Ea,rev",
+          "ΔH = Ea,fwd - Ea,rev",
+          "ΔH = Ea,rev - Ea,fwd",
+        ],
+        correctAnswer: "ΔH = Ea,fwd - Ea,rev",
+      },
+      {
+        question: "Which factor does NOT influence the rate of a reaction?",
+        options: [
+          "Temperature",
+          "Concentration of reactants",
+          "The equilibrium constant (K_c)",
+          "Presence of a catalyst",
+        ],
+        correctAnswer: "The equilibrium constant (K_c)",
+      },
+      {
+        question: "For a zero-order reaction, the rate is:",
+        options: [
+          "Directly proportional to the concentration.",
+          "Directly proportional to the square of the concentration.",
+          "Independent of the concentration.",
+          "Inversely proportional to the concentration.",
+        ],
+        correctAnswer: "Independent of the concentration.",
+      },
+      {
+        question:
+          "The rate-determining step in a reaction mechanism is always the:",
+        options: ["First step", "Last step", "Fastest step", "Slowest step"],
+        correctAnswer: "Slowest step",
+      },
+      {
+        question:
+          "The rate law provides a 'window' into the reaction mechanism because it reflects the composition of the:",
+        options: [
+          "Overall balanced reaction",
+          "Final products",
+          "Rate-determining step",
+          "Initial reactants",
+        ],
+        correctAnswer: "Rate-determining step",
+      },
+      {
+        question: "The half-life of a zero-order reaction is:",
+        options: [
+          "Independent of initial concentration",
+          "Directly proportional to initial concentration",
+          "Inversely proportional to initial concentration",
+          "Equal to 0.693/k",
+        ],
+        correctAnswer: "Directly proportional to initial concentration",
+      },
+      {
+        question:
+          "A high activation energy corresponds to a ____ rate constant (k), and a ____ reaction rate.",
+        options: ["large, fast", "small, slow", "small, fast", "large, slow"],
+        correctAnswer: "small, slow",
+      },
+      {
+        question:
+          "For a reaction to occur, the pre-exponential factor 'A' in the Arrhenius equation relates to the frequency and ____ of collisions.",
+        options: ["energy", "orientation", "temperature", "pressure"],
+        correctAnswer: "orientation",
+      },
+      {
+        question: "The study of reaction rates and mechanisms is called:",
+        options: [
+          "Thermodynamics",
+          "Stoichiometry",
+          "Reaction Kinetics",
+          "Chemical Equilibrium",
+        ],
+        correctAnswer: "Reaction Kinetics",
+      },
+      {
+        question: "What is the overall reaction order for Rate = k?",
+        options: [
+          "Zero order",
+          "First order",
+          "Second order",
+          "Cannot be determined",
+        ],
+        correctAnswer: "Zero order",
+      },
+      {
+        question:
+          "If a reaction is exothermic, what is the sign of its enthalpy change (ΔH)?",
+        options: ["Positive", "Negative", "Zero", "Depends on temperature"],
+        correctAnswer: "Negative",
+      },
+      {
+        question:
+          "If doubling the concentration of a reactant has no effect on the reaction rate, the reaction is what order with respect to that reactant?",
+        options: [
+          "Zero order",
+          "First order",
+          "Second order",
+          "Negative order",
+        ],
+        correctAnswer: "Zero order",
+      },
+      {
+        question: "Integrated rate laws relate which two variables?",
+        options: [
+          "Rate and concentration",
+          "Concentration and time",
+          "Rate and temperature",
+          "Rate constant and activation energy",
+        ],
+        correctAnswer: "Concentration and time",
+      },
+      {
+        question:
+          "Which of the following can be monitored to measure the rate of a reaction?",
+        options: [
+          "Change in color",
+          "Change in pressure",
+          "Change in concentration via titration",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+      },
+      {
+        question:
+          "In a plot of ln[A] vs. time for a first-order reaction, the slope of the line is equal to:",
+        options: ["k", "-k", "E_a", "t₁/₂"],
+        correctAnswer: "-k",
+      },
+      {
+        question:
+          "For an exothermic reaction A ⇌ B, which has a higher activation energy?",
+        options: [
+          "The forward reaction (A → B)",
+          "The reverse reaction (B → A)",
+          "Both are equal",
+          "Cannot be determined",
+        ],
+        correctAnswer: "The reverse reaction (B → A)",
+      },
+      {
+        question:
+          "The rate law for a reaction is found to be Rate = k[A]. What happens to the rate if [A] is tripled?",
+        options: [
+          "It triples",
+          "It is 1/3 of the original rate",
+          "It increases by a factor of 9",
+          "It does not change",
+        ],
+        correctAnswer: "It triples",
+      },
+      {
+        question: "Which type of reaction has a constant half-life?",
+        options: [
+          "Zero-order",
+          "First-order",
+          "Second-order",
+          "All of the above",
+        ],
+        correctAnswer: "First-order",
+      },
+      {
+        question:
+          "If a reaction is endothermic (ΔH > 0), what does a potential energy diagram look like?",
+        options: [
+          "Products are at a lower energy level than reactants.",
+          "Products are at a higher energy level than reactants.",
+          "Reactants and products are at the same energy level.",
+          "There is no activation energy barrier.",
+        ],
+        correctAnswer: "Products are at a higher energy level than reactants.",
+      },
+      {
+        question:
+          "If a reaction is first order in A and second order in B, what is the overall reaction order?",
+        options: ["First", "Second", "Third", "Fourth"],
+        correctAnswer: "Third",
+      },
+      {
+        question:
+          "A first-order reaction has a half-life of 30 minutes. What percentage of the reactant will remain after 90 minutes?",
+        options: ["50%", "25%", "12.5%", "6.25%"],
+        correctAnswer: "12.5%",
+      },
+      {
+        question:
+          "The half-life of a first-order reaction is 69.3 s. What is the value of the rate constant (k)? (k = 0.693 / t₁/₂)",
+        options: ["1.0 s⁻¹", "0.1 s⁻¹", "0.01 s⁻¹", "10.0 s⁻¹"],
+        correctAnswer: "0.01 s⁻¹",
+      },
+      {
+        question:
+          "Reaction X doubles its rate from 298K to 308K. Reaction Y triples its rate over the same temperature range. Which statement is correct?",
+        options: [
+          "Reaction X has a higher Ea than Y",
+          "Reaction Y has a higher Ea than X",
+          "Both have the same Ea",
+          "Ea cannot be determined",
+        ],
+        correctAnswer: "Reaction Y has a higher Ea than X",
+      },
+      {
+        question:
+          "A first-order reaction has a rate constant of 0.02 min⁻¹. How long will it take for the concentration to drop from 0.8 M to 0.1 M?",
+        options: ["50 min", "75 min", "104 min", "208 min"],
+        correctAnswer: "104 min",
+      },
+      {
+        question:
+          "What are the units for the rate constant of a third-order reaction?",
+        options: ["s⁻¹", "dm³⋅mol⁻¹⋅s⁻¹", "dm⁶⋅mol⁻²⋅s⁻¹", "mol⋅dm⁻³⋅s⁻¹"],
+        correctAnswer: "dm⁶⋅mol⁻²⋅s⁻¹",
+      },
+    ],
+    "Fundamental Concepts": [
+      {
+        question:
+          "Which statement accurately describes the formation of a cation?",
+        options: [
+          "It is an exothermic process.",
+          "The resulting ion is larger than its parent atom.",
+          "It involves an atom losing one or more electrons.",
+          "It involves an atom gaining one or more electrons.",
+        ],
+        correctAnswer: "It involves an atom losing one or more electrons.",
+      },
+      {
+        question:
+          "The formation of a uni-negative anion is typically what kind of process?",
+        options: ["Exothermic", "Endothermic", "Isothermic", "Neutral"],
+        correctAnswer: "Exothermic",
+      },
+      {
+        question: "What are isobars?",
+        options: [
+          "Atoms with the same number of protons but different neutrons.",
+          "Atoms with the same number of neutrons but different protons.",
+          "Atoms with the same mass number but different atomic numbers.",
+          "Atoms with the same atomic number and mass number.",
+        ],
+        correctAnswer:
+          "Atoms with the same mass number but different atomic numbers.",
+      },
+      {
+        question: "The species ¹⁴C and ¹⁴N are examples of:",
+        options: ["Isotopes", "Isobars", "Isotones", "Allotropes"],
+        correctAnswer: "Isobars",
+      },
+      {
+        question:
+          "The atoms ¹⁴C (Carbon-14) and ¹⁶O (Oxygen-16) both have 8 neutrons. They are examples of:",
+        options: ["Isotopes", "Isobars", "Isotones", "Allotropes"],
+        correctAnswer: "Isotones",
+      },
+      {
+        question:
+          "Which of the following elements naturally exists as a single isotope (is mono-isotopic)?",
+        options: ["Carbon", "Chlorine", "Fluorine (F)", "Oxygen"],
+        correctAnswer: "Fluorine (F)",
+      },
+      {
+        question: "What is the value of Avogadro's Number (N_A)?",
+        options: [
+          "6.022 x 10²²",
+          "6.022 x 10²³",
+          "3.011 x 10²³",
+          "1.602 x 10⁻¹⁹",
+        ],
+        correctAnswer: "6.022 x 10²³",
+      },
+      {
+        question:
+          "What is the molar volume of any ideal gas at Standard Temperature and Pressure (STP)?",
+        options: ["22.414 dm³", "24.0 dm³", "1 dm³", "100 cm³"],
+        correctAnswer: "22.414 dm³",
+      },
+      {
+        question:
+          "The simplest whole-number ratio of atoms in a compound is known as the:",
+        options: [
+          "Molecular Formula",
+          "Structural Formula",
+          "Ionic Formula",
+          "Empirical Formula",
+        ],
+        correctAnswer: "Empirical Formula",
+      },
+      {
+        question:
+          "If the empirical formula of a compound is CH₂O and its molecular mass is 180 g/mol, what is its molecular formula?",
+        options: ["C₂H₄O₂", "C₃H₆O₃", "C₆H₁₂O₆", "C₇H₁₄O₇"],
+        correctAnswer: "C₆H₁₂O₆",
+      },
+      {
+        question:
+          "In combustion analysis, what substance is commonly used to absorb H₂O?",
+        options: [
+          "Potassium Hydroxide (KOH)",
+          "Magnesium perchlorate (Mg(ClO₄)₂)",
+          "Sodium Chloride (NaCl)",
+          "Sulfuric Acid (H₂SO₄)",
+        ],
+        correctAnswer: "Magnesium perchlorate (Mg(ClO₄)₂)",
+      },
+      {
+        question:
+          "The reactant that is completely consumed in a chemical reaction and limits the amount of product formed is called the:",
+        options: [
+          "Excess Reactant",
+          "Catalyst",
+          "Limiting Reactant",
+          "Product",
+        ],
+        correctAnswer: "Limiting Reactant",
+      },
+      {
+        question:
+          "The maximum amount of product that can be formed from the given amounts of reactants is known as the:",
+        options: [
+          "Actual Yield",
+          "Theoretical Yield",
+          "Percentage Yield",
+          "Experimental Yield",
+        ],
+        correctAnswer: "Theoretical Yield",
+      },
+      {
+        question:
+          "Which of the following is NOT a reason for low actual yield in an experiment?",
+        options: [
+          "Side reactions occurring",
+          "Incomplete reaction (equilibrium)",
+          "Perfectly efficient filtration and crystallization",
+          "Mechanical losses during transfer",
+        ],
+        correctAnswer: "Perfectly efficient filtration and crystallization",
+      },
+      {
+        question:
+          "An ion that is smaller than its parent atom and is formed through an endothermic process is a(n):",
+        options: ["Anion", "Cation", "Isotope", "Molecule"],
+        correctAnswer: "Cation",
+      },
+      {
+        question:
+          "Calculate the number of moles in 32 grams of Methane (CH₄). (Atomic masses: C=12, H=1)",
+        options: ["1 mole", "2 moles", "0.5 moles", "4 moles"],
+        correctAnswer: "2 moles",
+      },
+      {
+        question: "The percentage yield is calculated as:",
+        options: [
+          "(Theoretical Yield / Actual Yield) x 100",
+          "(Actual Yield / Theoretical Yield) x 100",
+          "Theoretical Yield - Actual Yield",
+          "Actual Yield + Theoretical Yield",
+        ],
+        correctAnswer: "(Actual Yield / Theoretical Yield) x 100",
+      },
+      {
+        question: "Which of the following is an example of a molecular ion?",
+        options: ["Na⁺", "Cl⁻", "CH₄⁺", "He"],
+        correctAnswer: "CH₄⁺",
+      },
+      {
+        question: "How many neutrons are in the isotope Bromine-81 (³⁵Br⁸¹)?",
+        options: ["35", "81", "46", "116"],
+        correctAnswer: "46",
+      },
+      {
+        question:
+          "A compound contains 63.63% Nitrogen and 36.36% Oxygen. What is its empirical formula? (Atomic masses: N=14, O=16)",
+        options: ["NO", "NO₂", "N₂O", "N₂O₅"],
+        correctAnswer: "N₂O",
+      },
+      {
+        question:
+          "The formula: Molecular Formula = n × (Empirical Formula) is known as:",
+        options: [
+          "The Ratio Formula",
+          "The Linking Formula",
+          "The Molar Formula",
+          "Avogadro's Law",
+        ],
+        correctAnswer: "The Linking Formula",
+      },
+      {
+        question:
+          "In the mass-mass calculation steps for stoichiometry, what is the first step?",
+        options: [
+          "Convert moles of reactant to mass.",
+          "Use the mole ratio from the balanced equation.",
+          "Convert the given mass of a substance to moles.",
+          "Calculate the percentage yield.",
+        ],
+        correctAnswer: "Convert the given mass of a substance to moles.",
+      },
+      {
+        question: "The defining characteristic of an element is its:",
+        options: [
+          "Mass number",
+          "Number of neutrons",
+          "Atomic number (number of protons)",
+          "Number of isotopes",
+        ],
+        correctAnswer: "Atomic number (number of protons)",
+      },
+      {
+        question: "In which list are all elements mono-isotopic?",
+        options: [
+          "Gold, Carbon, Sodium",
+          "Fluorine, Iodine, Arsenic",
+          "Oxygen, Nitrogen, Fluorine",
+          "Sodium, Chlorine, Gold",
+        ],
+        correctAnswer: "Fluorine, Iodine, Arsenic",
+      },
+      {
+        question:
+          "A compound has an empirical formula of N₂O. This represents the:",
+        options: [
+          "Actual number of atoms in the molecule.",
+          "Simplest whole-number ratio of atoms.",
+          "Total mass of the compound.",
+          "Number of covalent bonds.",
+        ],
+        correctAnswer: "Simplest whole-number ratio of atoms.",
+      },
+      {
+        question:
+          "What is the total number of covalent bonds in one molecule of methane (CH₄)?",
+        options: ["1", "2", "3", "4"],
+        correctAnswer: "4",
+      },
+      {
+        question:
+          "If 10g of methane (molar mass = 16 g/mol) are used, how many molecules of methane are present? (N_A = 6.022 x 10²³)",
+        options: ["3.76 x 10²³", "6.022 x 10²³", "1.6 x 10²⁴", "0.625"],
+        correctAnswer: "3.76 x 10²³",
+      },
+      {
+        question:
+          "The chemical properties of isotopes of an element are nearly identical because they have the same:",
+        options: [
+          "Mass number",
+          "Number of neutrons",
+          "Number of electrons and protons",
+          "Physical properties",
+        ],
+        correctAnswer: "Number of electrons and protons",
+      },
+      {
+        question:
+          "What is the correct calculation for the number of moles (n) from a given number of particles (N)?",
+        options: ["n = N × N_A", "n = N_A / N", "n = N / N_A", "n = N + N_A"],
+        correctAnswer: "n = N / N_A",
+      },
+      {
+        question:
+          "The formation of poly-negative ions (like O²⁻ from O⁻) is an endothermic process due to:",
+        options: [
+          "Increased nuclear charge",
+          "Repulsion between the negative ion and the incoming electron",
+          "The small size of the atom",
+          "The high ionization energy",
+        ],
+        correctAnswer:
+          "Repulsion between the negative ion and the incoming electron",
+      },
+      {
+        question:
+          "Which of these represents a set of isoelectronic species (having the same number of electrons)?",
+        options: [
+          "Na⁺, Mg²⁺, F⁻",
+          "Li, Be, B",
+          "Cl⁻, Br⁻, I⁻",
+          "Fe²⁺, Fe³⁺, Co²⁺",
+        ],
+        correctAnswer: "Na⁺, Mg²⁺, F⁻",
+      },
+    ],
     "Atomic Structure": [
       {
         question:
-          "What particle is found in the nucleus and has a positive charge?",
-        options: ["Electron", "Neutron", "Proton", "Photon"],
+          "Who is credited with the discovery of positive rays (canal rays)?",
+        options: [
+          "J.J. Thomson",
+          "James Chadwick",
+          "Niels Bohr",
+          "Eugene Goldstein",
+        ],
+        correctAnswer: "Eugene Goldstein",
+      },
+      {
+        question:
+          "Where do positive rays originate in a modified Crookes tube?",
+        options: [
+          "From the cathode surface",
+          "From the anode surface",
+          "From the residual gas molecules in the tube",
+          "From outside the tube",
+        ],
+        correctAnswer: "From the residual gas molecules in the tube",
+      },
+      {
+        question:
+          "How does the charge-to-mass (e/m) ratio of positive rays compare to that of electrons?",
+        options: [
+          "It is identical.",
+          "It is considerably larger.",
+          "It is considerably smaller.",
+          "It is always zero.",
+        ],
+        correctAnswer: "It is considerably smaller.",
+      },
+      {
+        question: "The e/m ratio of positive rays is not constant because:",
+        options: [
+          "Their charge changes.",
+          "Their mass depends on the gas used.",
+          "The electric field varies.",
+          "The cathode material changes.",
+        ],
+        correctAnswer: "Their mass depends on the gas used.",
+      },
+      {
+        question:
+          "Which gas, when used in a discharge tube, produces positive rays with the highest e/m ratio?",
+        options: ["Helium", "Neon", "Hydrogen", "Oxygen"],
+        correctAnswer: "Hydrogen",
+      },
+      {
+        question:
+          "Which subatomic particle has a relative mass of approximately 1/1836th of a proton?",
+        options: ["Neutron", "Positron", "Electron", "Quark"],
+        correctAnswer: "Electron",
+      },
+      {
+        question:
+          "According to Bohr's model, what happens when an electron jumps from a higher energy orbit (E₂) to a lower energy orbit (E₁)?",
+        options: [
+          "It absorbs a photon of energy E₂ + E₁.",
+          "It emits a photon of energy E₂ - E₁.",
+          "It absorbs a photon of energy E₂ - E₁.",
+          "It remains in a stable state without any energy change.",
+        ],
+        correctAnswer: "It emits a photon of energy E₂ - E₁.",
+      },
+      {
+        question:
+          "The spectral lines in the Lyman series of the hydrogen spectrum are found in which region?",
+        options: ["Visible", "Infrared", "Ultraviolet", "Microwave"],
+        correctAnswer: "Ultraviolet",
+      },
+      {
+        question:
+          "An electron transition in a hydrogen atom results in the emission of a photon of green light. What is the principal quantum number (n) of the final state?",
+        options: ["n=1", "n=2", "n=3", "n=4"],
+        correctAnswer: "n=2",
+      },
+      {
+        question:
+          "In the Bohr model, the radius of an orbit (r_n) is directly proportional to:",
+        options: ["n", "1/n", "n²", "1/n²"],
+        correctAnswer: "n²",
+      },
+      {
+        question:
+          "In the Bohr model, how does the energy difference between consecutive orbits change as 'n' increases?",
+        options: [
+          "It increases.",
+          "It decreases.",
+          "It stays the same.",
+          "It becomes zero.",
+        ],
+        correctAnswer: "It decreases.",
+      },
+      {
+        question:
+          "Which quantum number primarily determines the energy level and size of an orbital?",
+        options: [
+          "Azimuthal (l)",
+          "Magnetic (m_l)",
+          "Principal (n)",
+          "Spin (m_s)",
+        ],
+        correctAnswer: "Principal (n)",
+      },
+      {
+        question: "What is the shape of a p-orbital?",
+        options: ["Spherical", "Dumbbell", "Cloverleaf", "Complex multi-lobed"],
+        correctAnswer: "Dumbbell",
+      },
+      {
+        question:
+          "For a given principal quantum number n=3, what are the possible values for the azimuthal quantum number (l)?",
+        options: ["0, 1, 2, 3", "1, 2, 3", "0, 1, 2", "-2, -1, 0, 1, 2"],
+        correctAnswer: "0, 1, 2",
+      },
+      {
+        question:
+          "If the azimuthal quantum number (l) is 2, what are the possible values for the magnetic quantum number (m_l)?",
+        options: ["0, 1, 2", "-1, 0, +1", "0", "-2, -1, 0, +1, +2"],
+        correctAnswer: "-2, -1, 0, +1, +2",
+      },
+      {
+        question:
+          "Which of the following sets of quantum numbers (n, l, m_l, m_s) is NOT allowed?",
+        options: [
+          "(3, 2, -1, +1/2)",
+          "(4, 0, 0, -1/2)",
+          "(2, 2, 1, +1/2)",
+          "(5, 1, 0, +1/2)",
+        ],
+        correctAnswer: "(2, 2, 1, +1/2)",
+      },
+      {
+        question: "How many orbitals are in a d-subshell (l=2)?",
+        options: ["1", "3", "5", "7"],
+        correctAnswer: "5",
+      },
+      {
+        question:
+          "The d(z²) orbital is unique because its shape consists of a dumbbell along the z-axis and a:",
+        options: [
+          "Second dumbbell on the x-axis",
+          "Torus (donut shape) in the xy-plane",
+          "Four lobes between the axes",
+          "Spherical node",
+        ],
+        correctAnswer: "Torus (donut shape) in the xy-plane",
+      },
+      {
+        question:
+          "The Aufbau principle states that electrons fill orbitals in order of:",
+        options: [
+          "Increasing atomic number",
+          "Decreasing energy",
+          "Increasing energy",
+          "Alphabetical order of subshell",
+        ],
+        correctAnswer: "Increasing energy",
+      },
+      {
+        question:
+          "What is the maximum number of electrons an orbital can hold, according to the Pauli Exclusion Principle?",
+        options: ["1", "2", "6", "10"],
+        correctAnswer: "2",
+      },
+      {
+        question:
+          "Hund's rule states that for degenerate orbitals, electrons will:",
+        options: [
+          "Pair up immediately",
+          "Occupy separate orbitals with parallel spins before pairing",
+          "Occupy separate orbitals with opposite spins before pairing",
+          "Only occupy one orbital per subshell",
+        ],
+        correctAnswer:
+          "Occupy separate orbitals with parallel spins before pairing",
+      },
+      {
+        question:
+          "What is the correct electronic configuration for a neutral Copper atom (Cu, Z=29)?",
+        options: [
+          "[Ar] 4s² 3d⁹",
+          "[Ar] 4s¹ 3d¹⁰",
+          "[Ar] 4s⁰ 3d¹¹",
+          "[Ar] 3d⁹ 4s²",
+        ],
+        correctAnswer: "[Ar] 4s¹ 3d¹⁰",
+      },
+      {
+        question:
+          "What is the correct electronic configuration for the Fe²⁺ ion? (Fe, Z=26)",
+        options: ["[Ar] 4s² 3d⁴", "[Ar] 4s⁰ 3d⁶", "[Ar] 4s¹ 3d⁵", "[Ar] 3d⁵"],
+        correctAnswer: "[Ar] 4s⁰ 3d⁶",
+      },
+      {
+        question:
+          "The concept that half-filled and completely-filled subshells have extra stability explains the anomalous configuration of:",
+        options: [
+          "Sodium and Chlorine",
+          "Chromium and Copper",
+          "Helium and Neon",
+          "Iron and Cobalt",
+        ],
+        correctAnswer: "Chromium and Copper",
+      },
+      {
+        question:
+          "The Balmer series corresponds to electron transitions ending at n=2. These transitions primarily emit light in what region of the spectrum?",
+        options: ["Ultraviolet", "Infrared", "Visible", "X-ray"],
+        correctAnswer: "Visible",
+      },
+      {
+        question: "An orbital with n=4 and l=1 is designated as:",
+        options: ["4s", "4p", "4d", "4f"],
+        correctAnswer: "4p",
+      },
+      {
+        question:
+          "Which principle or rule dictates the filling order of orbitals using the (n+l) value?",
+        options: [
+          "Hund's Rule",
+          "Pauli Exclusion Principle",
+          "Aufbau Principle",
+          "Bohr's Postulates",
+        ],
+        correctAnswer: "Aufbau Principle",
+      },
+      {
+        question: "The discovery of the neutron is credited to:",
+        options: [
+          "J.J. Thomson",
+          "Ernest Rutherford",
+          "Eugene Goldstein",
+          "James Chadwick",
+        ],
+        correctAnswer: "James Chadwick",
+      },
+      {
+        question: "Which of the following describes a nodal plane?",
+        options: [
+          "A region of maximum electron probability.",
+          "A region where the probability of finding an electron is exactly zero.",
+          "The path an electron takes around the nucleus.",
+          "The boundary surface of an orbital.",
+        ],
+        correctAnswer:
+          "A region where the probability of finding an electron is exactly zero.",
+      },
+      {
+        question:
+          "How many p-orbitals exist in a given energy level (for n > 1)?",
+        options: ["1", "3", "5", "7"],
+        correctAnswer: "3",
+      },
+      {
+        question:
+          "The spin quantum number (m_s) can have which of the following values?",
+        options: ["0 and 1", "-1, 0, +1", "Only +1/2", "+1/2 and -1/2"],
+        correctAnswer: "+1/2 and -1/2",
+      },
+      {
+        question:
+          "Which subatomic particle has a positive charge and a mass of approximately 1 amu?",
+        options: ["Electron", "Positron", "Proton", "Neutron"],
         correctAnswer: "Proton",
       },
       {
         question:
-          "The atomic number of an element is the number of ___ in one atom.",
-        options: ["protons", "neutrons", "electrons", "nucleons"],
-        correctAnswer: "protons",
+          "The Paschen series in the hydrogen spectrum involves electron transitions that end at which principal quantum number?",
+        options: ["n=1", "n=2", "n=3", "n=4"],
+        correctAnswer: "n=3",
+      },
+      {
+        question: "Which orbital shape is described as 'cloverleaf'?",
+        options: ["s-orbital", "p-orbital", "d-orbital", "f-orbital"],
+        correctAnswer: "d-orbital",
       },
       {
         question:
-          "What is the mass number of an atom with 12 protons, 12 electrons, and 13 neutrons?",
-        options: ["24", "12", "37", "25"],
-        correctAnswer: "25",
-      },
-    ],
-    "Chemical Bonding": [
-      {
-        question: "What type of bond is formed by the transfer of electrons?",
-        options: ["Ionic", "Covalent", "Metallic", "Hydrogen"],
-        correctAnswer: "Ionic",
+          "When forming a cation from a main group element, electrons are removed from the:",
+        options: [
+          "Innermost shell",
+          "Outermost shell",
+          "d-subshell only",
+          "s-subshell only",
+        ],
+        correctAnswer: "Outermost shell",
       },
       {
-        question: "Which of the following is a nonpolar molecule?",
-        options: ["H2O", "CO2", "NH3", "HCl"],
-        correctAnswer: "CO2",
+        question: "The mass of an atom is concentrated almost entirely in its:",
+        options: ["Electron cloud", "Outermost shell", "Nucleus", "Orbitals"],
+        correctAnswer: "Nucleus",
       },
-    ],
-    "Organic Chemistry": [
       {
-        question: "What is the main element in organic compounds?",
-        options: ["Oxygen", "Nitrogen", "Carbon", "Hydrogen"],
-        correctAnswer: "Carbon",
+        question:
+          "Planck's theory states that energy is emitted or absorbed in discrete packets called:",
+        options: ["Electrons", "Protons", "Quanta", "Orbits"],
+        correctAnswer: "Quanta",
+      },
+      {
+        question:
+          "The angular momentum of an electron in a Bohr orbit is an integral multiple of:",
+        options: ["h", "h / 2π", "2π / h", "h²"],
+        correctAnswer: "h / 2π",
+      },
+      {
+        question:
+          "The f-subshell (l=3) first appears in which principal energy level?",
+        options: ["n=2", "n=3", "n=4", "n=5"],
+        correctAnswer: "n=4",
+      },
+      {
+        question:
+          "How many unpaired electrons are in a neutral nitrogen atom (Z=7)?",
+        options: ["0", "1", "2", "3"],
+        correctAnswer: "3",
+      },
+      {
+        question:
+          "A positive ion produced from hydrogen gas (H₂) is simply a(n):",
+        options: ["Electron", "Neutron", "Hydride ion", "Proton"],
+        correctAnswer: "Proton",
+      },
+      {
+        question: "Which of the following is NOT a property of positive rays?",
+        options: [
+          "They carry a positive charge.",
+          "They are deflected by electric fields.",
+          "They have a constant e/m ratio.",
+          "Their penetration power is very low.",
+        ],
+        correctAnswer: "They have a constant e/m ratio.",
+      },
+      {
+        question:
+          "The 'm' in the e/m ratio for a canal ray refers to the mass of:",
+        options: [
+          "A single electron",
+          "A single proton",
+          "The ion of the gas in the tube",
+          "The cathode material",
+        ],
+        correctAnswer: "The ion of the gas in the tube",
+      },
+      {
+        question:
+          "Which orbital is filled after the 3p orbital, according to the Aufbau principle?",
+        options: ["3d", "4s", "4p", "3s"],
+        correctAnswer: "4s",
+      },
+      {
+        question:
+          "A set of orbitals with the same energy level (e.g., the three p-orbitals) are called:",
+        options: [
+          "Isotopes",
+          "Degenerate orbitals",
+          "Valence orbitals",
+          "Core orbitals",
+        ],
+        correctAnswer: "Degenerate orbitals",
+      },
+      {
+        question:
+          "The concept that 'orbits are not equally spaced' is a key conclusion from which aspect of Bohr's model?",
+        options: [
+          "The energy formula (E_n ∝ 1/n²)",
+          "The radius formula (r_n ∝ n²)",
+          "The quantization of angular momentum",
+          "The stability of stationary states",
+        ],
+        correctAnswer: "The radius formula (r_n ∝ n²)",
+      },
+      {
+        question:
+          "What is the maximum number of electrons that can be accommodated in a shell with principal quantum number n=3?",
+        options: ["2", "8", "18", "32"],
+        correctAnswer: "18",
+      },
+      {
+        question: "Which of the following orbitals does not exist?",
+        options: ["1s", "3d", "2d", "4f"],
+        correctAnswer: "2d",
+      },
+      {
+        question:
+          "The probability of finding an electron is uniform in all directions for which type of orbital?",
+        options: ["p-orbital", "s-orbital", "d-orbital", "f-orbital"],
+        correctAnswer: "s-orbital",
+      },
+      {
+        question:
+          "The modern quantum-mechanical model describes an electron's location in terms of:",
+        options: [
+          "A fixed circular path",
+          "A region of high probability (orbital)",
+          "An elliptical orbit",
+          "A planetary model",
+        ],
+        correctAnswer: "A region of high probability (orbital)",
+      },
+      {
+        question:
+          "For the p-subshell (l=1), the magnetic quantum number (m_l) can have values of -1, 0, and +1. This indicates that there are:",
+        options: [
+          "Three p-orbitals with different shapes",
+          "Three p-orbitals with different sizes",
+          "Three p-orbitals with different orientations",
+          "One p-orbital that can hold three electrons",
+        ],
+        correctAnswer: "Three p-orbitals with different orientations",
+      },
+      {
+        question:
+          "An element has the electron configuration [Ar] 4s² 3d⁵. This element is:",
+        options: [
+          "Chromium (Cr)",
+          "Manganese (Mn)",
+          "Iron (Fe)",
+          "Vanadium (V)",
+        ],
+        correctAnswer: "Manganese (Mn)",
+      },
+      {
+        question:
+          "A 'last-in, first-out' logic for removing electrons during ionization is a common fallacy for which group of elements?",
+        options: [
+          "Alkali metals",
+          "Halogens",
+          "Noble gases",
+          "Transition metals",
+        ],
+        correctAnswer: "Transition metals",
+      },
+      {
+        question:
+          "The phenomenon where spectral lines split in a magnetic field is known as the:",
+        options: [
+          "Photoelectric effect",
+          "Compton effect",
+          "Zeeman effect",
+          "Aufbau principle",
+        ],
+        correctAnswer: "Zeeman effect",
+      },
+      {
+        question: "How many nodal planes does a p_x orbital have?",
+        options: ["0", "1", "2", "3"],
+        correctAnswer: "1",
+      },
+      {
+        question:
+          "Which of the following is the 'cardinal rule' for ionizing transition metals?",
+        options: [
+          "Remove electrons from the d-orbital first.",
+          "Remove electrons from the highest principal quantum number (n) shell first.",
+          "Remove electrons in the reverse order of filling.",
+          "Remove one electron from s and one from d.",
+        ],
+        correctAnswer:
+          "Remove electrons from the highest principal quantum number (n) shell first.",
+      },
+      {
+        question:
+          "The Brackett series in the hydrogen spectrum, found in the infrared region, corresponds to transitions ending at:",
+        options: ["n=2", "n=3", "n=4", "n=5"],
+        correctAnswer: "n=4",
+      },
+      {
+        question:
+          "The quantum number 'l' determines the shape of the orbital. What is the letter designation for l=3?",
+        options: ["s", "p", "d", "f"],
+        correctAnswer: "f",
+      },
+      {
+        question: "The energy of a photon is directly proportional to its:",
+        options: ["Wavelength", "Velocity", "Frequency", "Amplitude"],
+        correctAnswer: "Frequency",
+      },
+      {
+        question:
+          "Which of the d-orbitals have their lobes oriented *along* the coordinate axes?",
+        options: [
+          "d(xy), d(yz), d(xz)",
+          "d(x²-y²), d(z²)",
+          "All five d-orbitals",
+          "Only the d(xy) orbital",
+        ],
+        correctAnswer: "d(x²-y²), d(z²)",
       },
     ],
   },
