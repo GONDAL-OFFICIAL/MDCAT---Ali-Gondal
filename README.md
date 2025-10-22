@@ -1,20 +1,21 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="Quiz Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# MDCAT---Ali-Gondal: Modern Quiz Platform
 
-This contains everything you need to run your app locally.
+A React + Vite + Tailwind CSS quiz platform.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1o6hy6CTndd9HX6FfvF2aQFPv_4xLbhB0
+View the deployed app on GitHub Pages:  
+[https://GONDAL-OFFICIAL.github.io/MDCAT---Ali-Gondal/](https://GONDAL-OFFICIAL.github.io/MDCAT---Ali-Gondal/)
+
+---
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+**Prerequisites:** Node.js (v18+), npm
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone the repo:  
+```bash
+git clone https://github.com/GONDAL-OFFICIAL/MDCAT---Ali-Gondal.git
+cd MDCAT---Ali-Gondal
