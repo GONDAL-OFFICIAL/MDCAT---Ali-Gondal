@@ -2153,6 +2153,394 @@ export const mcqs: Mcqs = {
         correctAnswer: "The center tap wire",
       },
     ],
+    "Circular Motion": [
+      {
+        question:
+          "What is the critical speed (v_c) at the highest point (A) required for an object to complete a vertical loop of radius 'r'?",
+        options: ["√(gr)", "√(3gr)", "√(5gr)", "0"],
+        correctAnswer: "√(gr)",
+      },
+      {
+        question:
+          "If an object just completes a vertical loop of radius 'r' (speed at top is √(gr)), what must its speed be at the lowest point (B)?",
+        options: ["√(gr)", "√(3gr)", "√(5gr)", "√(2gr)"],
+        correctAnswer: "√(5gr)",
+      },
+      {
+        question:
+          "At the highest point (A) of a vertical circle, the equation for centripetal force is given by:",
+        options: [
+          "$T_A - mg = mv_A^2/r$",
+          "$T_A + mg = mv_A^2/r$",
+          "$mg - T_A = mv_A^2/r$",
+          "$T_A = mv_A^2/r$",
+        ],
+        correctAnswer: "$T_A + mg = mv_A^2/r$",
+      },
+      {
+        question:
+          "At the lowest point (B) of a vertical circle, the equation relating tension (T_B), gravity (mg), and centripetal force is:",
+        options: [
+          "$T_B - mg = mv_B^2/r$",
+          "$T_B + mg = mv_B^2/r$",
+          "$mg - T_B = mv_B^2/r$",
+          "$T_B = mg$",
+        ],
+        correctAnswer: "$T_B - mg = mv_B^2/r$",
+      },
+      {
+        question:
+          "A 2 kg mass moves in a circle of radius 4 m with a constant speed of 10 m/s. What is the magnitude of the centripetal force (F_c)?",
+        options: ["20 N", "50 N", "80 N", "100 N"],
+        correctAnswer: "50 N",
+      },
+      {
+        question:
+          "An object moves in a circle with a constant angular velocity (ω) of 5 rad/s. If the radius of the circle is 2 m, what is its centripetal acceleration (a_c)?",
+        options: ["10 m/s²", "25 m/s²", "50 m/s²", "100 m/s²"],
+        correctAnswer: "50 m/s²",
+      },
+      {
+        question:
+          "A 0.5 kg stone is tied to a string and swung in a horizontal circle of radius 1 m. If the tension in the string is 8 N, what is the centripetal acceleration (a_c) of the stone?",
+        options: ["4 m/s²", "8 m/s²", "16 m/s²", "32 m/s²"],
+        correctAnswer: "16 m/s²",
+      },
+      {
+        question:
+          "An object completes one full revolution in a circle in 0.5 seconds. What is its angular velocity (ω)?",
+        options: ["π rad/s", "2π rad/s", "4π rad/s", "0.5π rad/s"],
+        correctAnswer: "4π rad/s",
+      },
+      {
+        question:
+          "A wheel with a radius of 0.5 m has an angular velocity of 10 rad/s. What is the tangential velocity (v) of a point on its rim?",
+        options: ["2.5 m/s", "5 m/s", "10 m/s", "20 m/s"],
+        correctAnswer: "5 m/s",
+      },
+      {
+        question:
+          "Why is the work done by the centripetal force on an object in circular motion always zero?",
+        options: [
+          "Because the force is zero",
+          "Because the displacement is zero",
+          "Because the force is always perpendicular to the velocity",
+          "Because the force is constant",
+        ],
+        correctAnswer:
+          "Because the force is always perpendicular to the velocity",
+      },
+      {
+        question:
+          "Which statement is true for an object in **uniform** circular motion?",
+        options: [
+          "Tangential acceleration (a_t) is zero",
+          "Centripetal acceleration (a_c) is zero",
+          "Both a_t and a_c are zero",
+          "Tangential acceleration (a_t) is non-zero",
+        ],
+        correctAnswer: "Tangential acceleration (a_t) is zero",
+      },
+      {
+        question: "How many degrees are equivalent to π/2 radians?",
+        options: ["45°", "90°", "180°", "360°"],
+        correctAnswer: "90°",
+      },
+      {
+        question:
+          "What is the rotational analogy for linear kinetic energy ($K.E._{linear} = 1/2 mv^2$)?",
+        options: [
+          "$K.E._{rot} = 1/2 Iω^2$",
+          "$K.E._{rot} = 1/2 mω^2$",
+          "$K.E._{rot} = 1/2 Iv^2$",
+          "$K.E._{rot} = 1/2 Iα^2$",
+        ],
+        correctAnswer: "$K.E._{rot} = 1/2 Iω^2$",
+      },
+      {
+        question:
+          "For the Earth revolving around the Sun, what force provides the necessary centripetal force?",
+        options: [
+          "Frictional force",
+          "Tension",
+          "Magnetic force",
+          "Gravitational force",
+        ],
+        correctAnswer: "Gravitational force",
+      },
+      {
+        question:
+          "If the string breaks while a stone is being swung in a horizontal circle, what path will the stone follow?",
+        options: [
+          "It will fall straight down",
+          "It will move in a straight line, tangent to the circle",
+          "It will continue in the circle",
+          "It will move radially outward",
+        ],
+        correctAnswer: "It will move in a straight line, tangent to the circle",
+      },
+      {
+        question:
+          "What is the primary effect of the centripetal force on an object in uniform circular motion?",
+        options: [
+          "It changes the speed only",
+          "It changes the direction of velocity only",
+          "It changes both speed and direction",
+          "It does no work and has no effect",
+        ],
+        correctAnswer: "It changes the direction of velocity only",
+      },
+      {
+        question:
+          "For an object just completing a vertical loop, what is its speed at the horizontal points (mid-way between top and bottom)?",
+        options: ["√(gr)", "√(3gr)", "√(5gr)", "√(2.5gr)"],
+        correctAnswer: "√(3gr)",
+      },
+      {
+        question: "What is the angular velocity (ω) of a clock's second hand?",
+        options: ["2π rad/s", "π/30 rad/s", "π/60 rad/s", "6 deg/s"],
+        correctAnswer: "π/30 rad/s",
+      },
+      {
+        question:
+          "If an object's angular velocity (ω) is decreasing, what is the direction of its angular acceleration (α)?",
+        options: [
+          "In the same direction as ω",
+          "In the opposite direction to ω",
+          "Perpendicular to ω",
+          "It is zero",
+        ],
+        correctAnswer: "In the opposite direction to ω",
+      },
+      {
+        question:
+          "In non-uniform circular motion, the net acceleration 'a' is the vector sum of:",
+        options: [
+          "$a_c$ and $a_t$",
+          "$a_c$ and gravity",
+          "$a_t$ and friction",
+          "$v$ and $ω$",
+        ],
+        correctAnswer: "$a_c$ and $a_t$",
+      },
+    ],
+    Waves: [
+      {
+        question:
+          "What is the fundamental frequency (f₁) for a closed-end pipe of length L, where v is the speed of sound?",
+        options: ["v / L", "v / 2L", "v / 4L", "2v / L"],
+        correctAnswer: "v / 4L",
+      },
+      {
+        question:
+          "What is the fundamental frequency (f₁) for an open-end pipe of length L?",
+        options: ["v / L", "v / 2L", "v / 4L", "v / 8L"],
+        correctAnswer: "v / 2L",
+      },
+      {
+        question:
+          "The fundamental frequency (1st Harmonic) for a stretched string fixed at both ends (length L) is given by:",
+        options: [
+          "$f_1 = v / 2L$",
+          "$f_1 = v / 4L$",
+          "$f_1 = v / L$",
+          "$f_1 = 2v / L$",
+        ],
+        correctAnswer: "$f_1 = v / 2L$",
+      },
+      {
+        question:
+          "A closed-end organ pipe (closed at one end) produces which harmonics?",
+        options: [
+          "Only odd harmonics (1, 3, 5...)",
+          "Only even harmonics (2, 4, 6...)",
+          "All harmonics (1, 2, 3...)",
+          "No harmonics, only the fundamental",
+        ],
+        correctAnswer: "Only odd harmonics (1, 3, 5...)",
+      },
+      {
+        question:
+          "An open-end organ pipe (open at both ends) produces which harmonics?",
+        options: [
+          "Only odd harmonics",
+          "Only even harmonics",
+          "All harmonics (odd and even)",
+          "Only the 1st and 2nd harmonics",
+        ],
+        correctAnswer: "All harmonics (odd and even)",
+      },
+      {
+        question:
+          "A stretched string fixed at both ends is plucked. Which harmonics will be present?",
+        options: [
+          "Only odd harmonics",
+          "Only even harmonics",
+          "All harmonics (odd and even)",
+          "Only the fundamental frequency",
+        ],
+        correctAnswer: "All harmonics (odd and even)",
+      },
+      {
+        question: "The speed of sound in a gas is directly proportional to:",
+        options: [
+          "The absolute temperature (T)",
+          "The square of the absolute temperature (T²)",
+          "The square root of the absolute temperature (√T)",
+          "The Celsius temperature (t)",
+        ],
+        correctAnswer: "The square root of the absolute temperature (√T)",
+      },
+      {
+        question:
+          "For every 1°C rise in temperature, the speed of sound in air increases by approximately:",
+        options: ["0.61 m/s", "1.22 m/s", "6.1 m/s", "0.33 m/s"],
+        correctAnswer: "0.61 m/s",
+      },
+      {
+        question:
+          "What is the effect of changing the pressure of a gas on the speed of sound, assuming the temperature remains constant?",
+        options: [
+          "Speed increases proportionally",
+          "Speed decreases proportionally",
+          "No effect",
+          "Speed increases with the square of pressure",
+        ],
+        correctAnswer: "No effect",
+      },
+      {
+        question:
+          "How does the speed of sound in moist air compare to the speed of sound in dry air?",
+        options: [
+          "It is greater in moist air",
+          "It is greater in dry air",
+          "It is the same in both",
+          "It depends on the pressure",
+        ],
+        correctAnswer: "It is greater in moist air",
+      },
+      {
+        question:
+          "Beats are a phenomenon of regular variation in sound intensity (loudness) caused by the superposition of two waves with:",
+        options: [
+          "Slightly different frequencies",
+          "Identical frequencies",
+          "Slightly different amplitudes",
+          "The same phase",
+        ],
+        correctAnswer: "Slightly different frequencies",
+      },
+      {
+        question:
+          "A tuning fork with a frequency of 256 Hz is sounded together with another tuning fork, and 4 beats per second are heard. What is a possible frequency for the second fork?",
+        options: ["256 Hz", "250 Hz", "260 Hz", "1024 Hz"],
+        correctAnswer: "260 Hz",
+      },
+      {
+        question:
+          "In a stationary (standing) wave, what is the distance between two consecutive nodes?",
+        options: ["λ", "λ / 2", "λ / 4", "2λ"],
+        correctAnswer: "λ / 2",
+      },
+      {
+        question:
+          "What is the distance between a node and the next (adjacent) antinode in a stationary wave?",
+        options: ["λ", "λ / 2", "λ / 4", "λ / 8"],
+        correctAnswer: "λ / 4",
+      },
+      {
+        question:
+          "Constructive interference occurs between two identical waves when their path difference is:",
+        options: ["nλ", "(n+1/2)λ", "λ / 4", "(n+1/4)λ"],
+        correctAnswer: "nλ",
+      },
+      {
+        question:
+          "Destructive interference occurs when the path difference between two identical waves is:",
+        options: ["nλ", "(n+1/2)λ", "2nλ", "λ / 3"],
+        correctAnswer: "(n+1/2)λ",
+      },
+      {
+        question:
+          "The speed of a transverse wave in a stretched string (mass per unit length μ, tension T) is given by $v = √(T/μ)$. If the tension (T) in the string is quadrupled, the speed of the wave will:",
+        options: [
+          "Be halved",
+          "Be doubled",
+          "Be quadrupled",
+          "Remain the same",
+        ],
+        correctAnswer: "Be doubled",
+      },
+      {
+        question: "Why can sound waves not be polarized?",
+        options: [
+          "Because they are electromagnetic",
+          "Because they are longitudinal",
+          "Because they are transverse",
+          "Because they travel slower than light",
+        ],
+        correctAnswer: "Because they are longitudinal",
+      },
+      {
+        question: "What is the frequency range for audible sound waves?",
+        options: [
+          "Below 20 Hz",
+          "20 Hz to 20,000 Hz",
+          "Above 20,000 Hz",
+          "0 Hz to 100 Hz",
+        ],
+        correctAnswer: "20 Hz to 20,000 Hz",
+      },
+      {
+        question:
+          "In which type of wave do the particles of the medium vibrate at right angles (perpendicular) to the direction of wave propagation?",
+        options: [
+          "Longitudinal waves",
+          "Transverse waves",
+          "Sound waves",
+          "Stationary waves",
+        ],
+        correctAnswer: "Transverse waves",
+      },
+      {
+        question:
+          "In which type of wave do the particles of the medium vibrate parallel to the direction of wave propagation?",
+        options: [
+          "Longitudinal waves",
+          "Transverse waves",
+          "Light waves",
+          "Water waves",
+        ],
+        correctAnswer: "Longitudinal waves",
+      },
+      {
+        question:
+          "When a wave passes from one medium to another, which of its properties does **not** change?",
+        options: ["Velocity", "Wavelength", "Frequency", "Amplitude"],
+        correctAnswer: "Frequency",
+      },
+      {
+        question:
+          "Laplace corrected Newton's formula for the speed of sound, stating that the process is:",
+        options: ["Isothermal", "Isobaric", "Isochoric", "Adiabatic"],
+        correctAnswer: "Adiabatic",
+      },
+      {
+        question: "What do waves transport?",
+        options: [
+          "Matter only",
+          "Energy and momentum only",
+          "Matter, energy, and momentum",
+          "Neither matter nor energy",
+        ],
+        correctAnswer: "Energy and momentum only",
+      },
+      {
+        question: "A sound wave with a frequency of 15 Hz is classified as:",
+        options: ["Audible", "Infrasonic", "Ultrasonic", "Supersonic"],
+        correctAnswer: "Infrasonic",
+      },
+    ],
   },
 };
 
