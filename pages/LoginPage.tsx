@@ -27,7 +27,7 @@ const LoginPage: React.FC = () => {
       <div className="w-full max-w-md p-8 space-y-8 bg-gray-800/50 backdrop-blur-sm rounded-2xl shadow-2xl border border-gray-700/50 transform transition-all duration-500 hover:scale-105">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500">
-            MdCAT -ALI GONDAL
+            MdCAT - ALI GONDAL
           </h1>
           <p className="mt-2 text-gray-400">Sign in to start your session</p>
         </div>
