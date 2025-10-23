@@ -4,7 +4,7 @@ import { User, Chapters, Mcqs } from "./types";
 // The password field is used for demonstration. In a real app, this would be handled securely.
 export const users: User[] = [
   { username: "Ali", password: "201711" },
-  { username: "Umer", password: "0000" },
+  { username: "Umer", password: "1234" },
   { username: "Tayyab", password: "2004" },
 ];
 
