@@ -60,7 +60,7 @@ const ResultPage: React.FC = () => {
 
     const scriptURL =
       "https://script.google.com/macros/s/AKfycbxNaO9_q8ZvZZwWV1CHEVtO9UkB3LA1qsmRtmV6l2umRww6Yvnvjpo5bTVqCszI0vSm/exec";
-    fetch("scriptURL", {
+    fetch(scriptURL, {
       method: "POST",
       body: JSON.stringify(payload),
       headers: { "Content-Type": "application/json" },
