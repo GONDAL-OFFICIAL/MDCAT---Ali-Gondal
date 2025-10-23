@@ -59,9 +59,8 @@ const ResultPage: React.FC = () => {
     };
 
     const scriptURL =
-      "https://script.google.com/macros/s/AKfycbza0SR9HKLNGE1kiHXHXoJCgYVzh2AaL0p17gckTByVodRwBKJKNkvFoHAgaC4K13s/exec";
-
-    fetch("/", {
+      "https://script.google.com/macros/s/AKfycbxNaO9_q8ZvZZwWV1CHEVtO9UkB3LA1qsmRtmV6l2umRww6Yvnvjpo5bTVqCszI0vSm/exec";
+    fetch("scriptURL", {
       method: "POST",
       body: JSON.stringify(payload),
       headers: { "Content-Type": "application/json" },
