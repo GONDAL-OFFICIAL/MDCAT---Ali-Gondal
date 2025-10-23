@@ -2,6 +2,7 @@
   "name": "modern-quiz-platform",
   "private": true,
   "version": "0.0.0",
+  "proxy": "https://script.google.com/macros/s/AKfycbza0SR9HKLNGE1kiHXHXoJCgYVzh2AaL0p17gckTByVodRwBKJKNkvFoHAgaC4K13s/exec",
   "type": "module",
   "scripts": {
     "dev": "vite",
